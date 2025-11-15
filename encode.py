@@ -84,7 +84,7 @@ def detect_file_type(file_path):
 
 # Load credentials file
 try:
-    with open('CREDS/credentials.json', 'r') as f:
+    with open('exampleCredentials.json', 'r') as f:
         creds = json.load(f)
 except Exception as e:
     print(f"Error: Could not load credentials.json - {e}")
